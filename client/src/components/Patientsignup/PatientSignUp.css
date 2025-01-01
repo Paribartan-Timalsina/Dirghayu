@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+.wrapper4
+{
+  margin-top: 30px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2rem 1rem;
+  background-color: #fff;
+  border-radius: center;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+  height: 1250px;
+  margin-bottom: 20px;
+}
+
+
+.wrapper4 img
+{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  align-content: center; 
+  padding-bottom: 2px;
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+
+.wrapper4 h1
+{
+  text-align: center;
+  font-size:1.7rem;
+  color:#021725;
+  margin-bottom:1.2rem;
+}
+
+form input[type='text'],input[type='date']
+{
+  width:92%;
+  outline:none;
+  border:1px solid #fff;
+  padding:12px 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  margin-left: 1rem;
+  background: #e4e4e4;
+}
+
+input[type="date"]::placeholder {
+  color: #ff0808;
+}
+
+.btn10
+{
+
+    margin-left: 110px;
+    margin-right: auto;
+    font-size: 1.2rem;
+    margin-top: 2.2rem;
+    padding: 11px 0;
+    border-radius: 10px;
+    outline:none;
+    border:none;
+    width: 60%;
+    color:#fff;
+    cursor:pointer;
+    background:rgb(17,107,143);
+    margin-bottom: 20px;
+  }
+  
+  .btn10:hover{
+    background: rgb(17,107,143,0.8);
+  }
+
+/* .input:hover{
+  opacity: 0.5;
+}
+
+.wrapper input:hover{
+  opacity: 0.7;
+} */

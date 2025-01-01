@@ -1,0 +1,11 @@
+To run hardhat:
+npx hardhat run scripts/deploy.js
+npx hardhat node
+
+To run backend
+cd backend
+nodemon
+
+To run frontend
+cd client
+npm start

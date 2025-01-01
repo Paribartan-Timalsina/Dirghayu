@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap'); 
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+.motherbox1
+
+{
+
+  margin-top: 70px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2rem 1rem;
+  background-color: #fff;
+  border-radius: center;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+.motherbox1 img
+{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  align-content: center; 
+  padding-bottom: 2px;
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+.motherbox1 h1{
+  margin-left: 230px;
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+}
+
+
+.address
+{
+  width:75%;
+  margin-left: 100px;
+  font-size: 20px;
+  padding: 20px;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  
+}
+
+
+.address::placeholder
+{
+  color: #cfcfcf;
+}
+
+.address:hover
+{
+  background-color: #fcfcfc;
+  border: 0.5px solif #615f5f;
+}
+
+.getdatabtn
+{
+  margin-left: 3rem;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  padding: 10px 0;
+  border-radius: 10px;
+  outline:none;
+  border:none;
+  width: 35%;
+  color:#fff;
+  cursor:pointer;
+  background:rgb(17,107,143);
+  margin-bottom: 20px;
+}
+.getdatabtn:hover
+{
+    background: rgb(17,107,143,0.8);  
+} 
+
+
+.seereportsbtn
+{
+  margin-left: 8rem;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  padding: 12px 0;
+  border-radius: 10px;
+  outline:none;
+  border:none;
+  width: 35%;
+  color:#fff;
+  cursor:pointer;
+  background:rgb(17,107,143);
+  margin-bottom: 20px;
+}
+.seereportsbtn:hover
+{
+    background: rgb(17,107,143,0.8);  
+} 
+
+
+
+.image-list1 {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.image-list1:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-list1:focus {
+  outline: none;
+}

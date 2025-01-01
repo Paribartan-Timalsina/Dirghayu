@@ -1,0 +1,172 @@
+
+  
+  .container1
+  {
+    margin-top: 60px;
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:2rem 1rem;
+    background-color: #fff;
+    border-radius: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+  }
+
+  .container1 img
+    {
+      display: block;
+      margin-right: auto;
+      margin-left: 260px;
+      width: 100px;
+      align-content: center; 
+      padding-bottom: 2px;
+      margin-bottom: 3px;
+    }
+
+  .details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .details h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .patient-details {
+    text-align: center;
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-left: 10%;
+  }
+  
+  .patient-details__header {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .patient-details__info {
+    margin-left: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 1em;
+  }
+  
+  .patient-details__info__item {
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+
+
+  .treatments-heading {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .treatment-container {
+    margin-bottom: 1em;
+    width:90%;
+    text-align: left;
+    margin-left: 50px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .disease-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  .status-label {
+    display: flex;
+    align-items: center;
+    margin-top: 05px;
+    width:100%;
+  }
+  
+  .status-checkbox {
+    margin-left:0%;
+     width:25px;
+     height:25px; 
+  }
+  .disease-heading {
+    margin-top: 15px;
+  }
+  
+  .medication-paragraph,
+  .status-paragraph {
+    margin-bottom: 5px;
+  }
+  
+  
+    .button11 {
+      background-color: rgb(17, 107, 143);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-left: 260px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    
+
+    .doctor-details {
+      text-align: center;
+      font-size: 10;
+    }
+    
+    .doctor-details-header {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    
+    .doctor-details-info {
+      margin-left: 20px;
+      text-align: left;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-left: 60px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      padding: 1em;
+    }
+    
+    .doctor-contact-info-item {
+      font-size: 15px;
+      font-weight: 200;
+      margin-bottom: 10px;
+    }
+
+    .doctor-qualification-item {
+      font-size: 15px;
+      font-weight: 200;
+      margin-bottom: 10px;
+    }
+
+    .medication-paragraph,
+    .status-paragraph {
+      margin-bottom: 0.5em;
+    }
+    
+    .status-label {
+      display: block;
+      margin-top: 1px;
+    }
+  
+    .status-checkbox {
+      margin-right: 0.5em;
+    }
+    

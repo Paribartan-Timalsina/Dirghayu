@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap'); 
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins",sans-serif;
+} 
+
+.wrapper10
+{
+  margin-top: 60px;
+  width:600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2rem 1rem;
+  background-color: #fff;
+  border-radius: center;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+} 
+
+.wrapper10 h1
+{
+  margin-left: 150px;
+  margin-top: 16px;
+} 
+.docdetails p
+{
+  margin-top:2px;
+  margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.searchbar
+{
+    margin-left: 270px;
+    padding: 10px;
+    width:60%;
+    margin-top: 10px;
+}
+
+ .btn15
+{
+  margin-right: 20rem;
+  margin-left: 130px;
+  margin-right: auto;
+  font-size: 1.1rem;
+  margin-top: 1.8rem;
+  padding: 11px 0;
+  border-radius: 10px;
+  outline:none;
+  border:none;
+  width:51%;
+  color:#fff;
+  cursor:pointer;
+  background:rgb(17,107,143);
+
+}
+
+.btn15:hover{
+  background: rgb(17,107,143,0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .searchbar {
+    margin: 10px 0;
+  }
+  
+  .btn {
+    width: auto;
+    max-width: none;
+    margin-right: 0;
+  }
+}
+
+.doctor-btn1 {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4285f4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.doctor-btn1:hover {
+  background-color: #3367d6;
+}

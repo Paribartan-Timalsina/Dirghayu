@@ -1,0 +1,23 @@
+.motherbox2 {
+    width:500px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+.motherbox2 .a .image-list2
+{
+    width:400px;
+    height:500px;
+}
+ .img .image-list1:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+   .img .image-list1:focus {
+    outline: none;
+  }
+  
