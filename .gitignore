@@ -9,6 +9,6 @@ typechain-types
 
 # Hardhat files
 cache
-artifacts
+# artifacts
 Backend/config/config.env
 
