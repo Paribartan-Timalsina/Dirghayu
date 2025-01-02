@@ -12,3 +12,4 @@ cache
 # artifacts
 Backend/config/config.env
 
+.vercel
