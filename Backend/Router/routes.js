@@ -194,7 +194,7 @@ router.get("/", (req, res) => {
 // Get all doctors' names
 router.get("/allnames", async (req, res) => {
   try {
-
+    console.log("hit")
     const doctors = await Doctor.find({}, "name");
     const names = doctors.map((doctor) => doctor.name);
     console.log(names);

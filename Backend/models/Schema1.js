@@ -21,8 +21,10 @@ const doctorSchema = new mongoose.Schema({
     required: true
   }
 });
+// Explicitly connect to MERNstack
+const db = mongoose.connection.useDb('MERNstack');
 // Define the model
-const Doctor = mongoose.model('doctors', doctorSchema);
+const Doctor = db.model('Doctor', doctorSchema);
 
 // Export the model
 module.exports = Doctor;
