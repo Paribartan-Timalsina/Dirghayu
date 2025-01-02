@@ -52,7 +52,7 @@ function Patientbook({ account, contract }) {
     setSelectedDate(date);
   };
   const getDoctors = async () => {
-    axios.get("http://localhost:5000/allnames", {
+    axios.get("https://dirghayu-backend-final.vercel.app/allnames", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -69,7 +69,7 @@ function Patientbook({ account, contract }) {
   }
   const getDoctorsdates = async (doctorname) => {
     try {
-      const response = await axios.post('http://localhost:5000/alldates', { name: doctorname }, {
+      const response = await axios.post('https://dirghayu-backend-final.vercel.app/alldates', { name: doctorname }, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
@@ -101,7 +101,7 @@ function Patientbook({ account, contract }) {
       console.log(doctorname)
       console.log(patientname)
       try {
-        const response = await axios.post('http://localhost:5000/bookingschemaconfirm', {
+        const response = await axios.post('https://dirghayu-backend-final.vercel.app/bookingschemaconfirm', {
           doctname: doctorname,
           patientname: patientname,
           appointmentday: availableDates
@@ -127,7 +127,7 @@ const handleDateSelect = async (info) => {
   console.log(formattedDate)
   setAvailableDates(formattedDate)
   try {
-    const response = await axios.post('http://localhost:5000/bookingschema', {
+    const response = await axios.post('https://dirghayu-backend-final.vercel.app/bookingschema', {
       doctname: doctorname,
       patientname: patientname,
       appointmentday: formattedDate

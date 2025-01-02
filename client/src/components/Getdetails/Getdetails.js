@@ -86,7 +86,7 @@ function editdetails(){
 const getAppointments=async()=>{
   try {
     console.log(details[0])
-    const response = await axios.post('http://localhost:5000/getappointment', { patientname: details[0] }, {
+    const response = await axios.post('https://dirghayu-backend-final.vercel.app/getappointment', { patientname: details[0] }, {
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'

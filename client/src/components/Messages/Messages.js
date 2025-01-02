@@ -17,7 +17,7 @@ const Messages = ({ account, contract }) => {
 
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/contact');
+        const response = await axios.get('https://dirghayu-backend-final.vercel.app/contact');
         setContacts(response.data);
       } catch (error) {
         console.error(error);

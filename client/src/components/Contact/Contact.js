@@ -23,7 +23,7 @@ const Contact = () => {
 
     // Make a POST request to the backend API
     axios
-      .post('http://localhost:5000/contact', formData)
+      .post('https://dirghayu-backend-final.vercel.app/contact', formData)
       .then((response) => {
         console.log('Contact form data submitted successfully');
         // Clear the form inputs

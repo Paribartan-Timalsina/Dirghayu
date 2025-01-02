@@ -42,7 +42,7 @@ function Doctorbook({account,contract}) {
     } else if (isDoctor) {
       const doctorname = await contract.getDoctorName();
       try {
-        const response = await axios.post('http://localhost:5000/alldates', { name:doctorname });
+        const response = await axios.post('https://dirghayu-backend-final.vercel.app/alldates', { name:doctorname });
         const dates = response.data;
         const formattedDate = dates.map(date=>moment(date, "MMM DD YYYY").format("YYYY-MM-DD"));
         setallDates(formattedDate); 
@@ -65,7 +65,7 @@ function Doctorbook({account,contract}) {
   }
   // const handleGetAllDates = async () => {
   //   try {
-  //     const response = await axios.post('http://localhost:5000/alldates', { name });
+  //     const response = await axios.post('https://dirghayu-backend-final.vercel.app/alldates', { name });
   //     const dates = response.data;
   //     const formattedDate = dates.map(date=>moment(date, "MMM DD YYYY").format("YYYY-MM-DD"));
   //     setallDates(formattedDate); 
@@ -106,7 +106,7 @@ function Doctorbook({account,contract}) {
     //   },
     //   body: JSON.stringify({ date: selectedDate })
     // });
-    const res=await fetch(`http://localhost:5000/doctors`,{
+    const res=await fetch(`https://dirghayu-backend-final.vercel.app/doctors`,{
       method:"POST",
       headers:{
           "Content-Type":"application/json",

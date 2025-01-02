@@ -36,7 +36,7 @@ const Appointments = ({ account, contract, provider }) => {
         console.log(name[0])
         setPatientname(name[0])
         try {
-          const response = await axios.post('http://localhost:5000/getappointment', { patientname:name[0] }, {
+          const response = await axios.post('https://dirghayu-backend-final.vercel.app/getappointment', { patientname:name[0] }, {
             headers: {
               'Content-Type': 'application/json',
               'Accept': 'application/json'
@@ -54,7 +54,7 @@ const Appointments = ({ account, contract, provider }) => {
         console.log(name[0])
         setDoctorname(name[0])
         try {
-          const response = await axios.post('http://localhost:5000/getdoctorappointment', { doctname:name[0] }, {
+          const response = await axios.post('https://dirghayu-backend-final.vercel.app/getdoctorappointment', { doctname:name[0] }, {
             headers: {
               'Content-Type': 'application/json',
               'Accept': 'application/json'
@@ -79,7 +79,7 @@ const Appointments = ({ account, contract, provider }) => {
   const cancelAppointment = async (appointmentDay) => {
     console.log(appointmentDay)
     try {
-      const response = await axios.post('http://localhost:5000/deleteappointment', {
+      const response = await axios.post('https://dirghayu-backend-final.vercel.app/deleteappointment', {
         appointmentDay,
         headers: {
           'Content-Type': 'application/json',
@@ -96,7 +96,7 @@ const Appointments = ({ account, contract, provider }) => {
 
   const getAppointments = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/getappointment', { patientname:patientname }, {
+      const response = await axios.post('https://dirghayu-backend-final.vercel.app/getappointment', { patientname:patientname }, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
