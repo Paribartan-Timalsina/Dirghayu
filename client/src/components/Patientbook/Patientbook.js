@@ -56,7 +56,7 @@ function Patientbook({ account, contract }) {
   };
   const getDoctors = async () => {
     axios
-      .get("http://localhost:4000/allnames", {
+      .get("https://dirghayu-wx5t.vercel.app/allnames", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
