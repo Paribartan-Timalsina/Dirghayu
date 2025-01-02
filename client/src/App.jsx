@@ -60,9 +60,9 @@ function App() {
     };
     provider && loadProvider()
   }, []);
-  // if (!account) {
-  //   return <div>Loading...</div>; // Render a loading state if account is not available yet
-  // }
+  if (!account) {
+    return <div>Loading...</div>; // Render a loading state if account is not available yet
+  }
   return (
     <>
       <Navbar/>
