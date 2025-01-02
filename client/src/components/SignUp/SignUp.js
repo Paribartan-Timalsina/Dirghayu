@@ -41,7 +41,7 @@ const SignUp = ({ account, contract, provider }) => {
         } else {
       try{
       let userAddress = await contract.getUserAddress()
-      
+      console.log(userAddress)
 
       if (userAddress !== '0x0000000000000000000000000000000000000000') {
         // this.setState({
@@ -76,7 +76,7 @@ window.alert("this account already exists")
     
       }
     }catch(e){
-      window.alert(`${e} `)
+      window.alert(`not able to signup ${e}`)
     }
     }
   }

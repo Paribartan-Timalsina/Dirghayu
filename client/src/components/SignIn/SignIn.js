@@ -102,7 +102,7 @@ window.alert("this account doesn't exists")
             }
         }
       }catch(e){
-        window.alert(e)
+        window.alert("its not happening")
       }
     }
     const signIn=(e)=>{

@@ -447,7 +447,7 @@ function displaydiseases(address _user) external view returns (Treatment[] memor
                 address(0x0000000000000000000000000000000000000000),
             "already registered"
         );
-    bytes32 roleHash = keccak256(abi.encodePacked(_role));
+bytes32 roleHash = keccak256(abi.encodePacked(_role));
 bytes32 doctorHash = keccak256(abi.encodePacked("Doctor"));
 bytes32 patientHash = keccak256(abi.encodePacked("Patient"));
         user[msg.sender].signatureHash = _signature;

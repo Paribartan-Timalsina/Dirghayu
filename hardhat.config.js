@@ -6,6 +6,10 @@ module.exports = {
   networks:{
     hardhat:{
       chainId:31337,
+      accounts: {
+        count: 20, // Number of accounts
+        initialBalance: "10000000000000000000000", // Balance in wei (10,000 ETH)
+      },
       
     }
   },
